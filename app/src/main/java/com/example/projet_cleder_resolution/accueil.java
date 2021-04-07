@@ -11,6 +11,6 @@ public class accueil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.accueil);
 
-        //test commit Push
+        //test commit Push2
     }
 }
