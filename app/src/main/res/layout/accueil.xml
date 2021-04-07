@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Substract"
+    android:background="@drawable/ic_subtract"
     tools:context=".accueil">
 </androidx.constraintlayout.widget.ConstraintLayout>
