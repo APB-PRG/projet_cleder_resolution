@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_cleder_resolution">
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".Settings"
+            android:parentActivityName=".accueil"
+            >
+
+
+        </activity>
         <activity android:name=".accueil">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
