@@ -1,8 +1,8 @@
 package com.example.projet_cleder_resolution;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class accueil extends AppCompatActivity {
 
@@ -11,6 +11,8 @@ public class accueil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.accueil);
 
-        //test commit Push2
+
+
+
     }
 }
