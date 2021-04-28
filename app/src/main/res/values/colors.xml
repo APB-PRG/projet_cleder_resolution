@@ -8,5 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Pomme">#E0F9B5</color>
+    <color name="rose">#FFCFDF</color>
+    <color name="jaune">#FEFDCA</color>
+    <color name="marron">#95533E</color>
     <color name="blueSky">#A5DEE5</color>
 </resources>

@@ -20,13 +20,67 @@
         app:srcCompat="@drawable/ic_subtract" />
 
     <ImageView
+        android:id="@+id/ic_arbre_br1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="62dp"
+        app:srcCompat="@drawable/ic_arbre_br1"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="305dp"
+        app:srcCompat="@drawable/ic_petit_arbre"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="196dp"
+        app:srcCompat="@drawable/ic_arbre_gauche_br2"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/ic_ajouter_arbre"></ImageView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="766dp"
+        app:srcCompat="@drawable/ic_graphique_redirection"></ImageView>
+
+    <ImageView
         android:id="@+id/settingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="3dp"
         android:layout_marginTop="4dp"
-        app:srcCompat="@drawable/ic_settingsbutton"
-        />
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="767dp"
+        app:srcCompat="@drawable/ic_settingsbutton" />
 
     <ImageView
         android:id="@+id/sun"
