@@ -6,12 +6,13 @@
     android:background="@color/Pomme">
 
     <ImageView
+        android:id="@+id/modifier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="732dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="694dp"
         app:srcCompat="@drawable/ic_bouton_modifier" />
 
     <ImageView
