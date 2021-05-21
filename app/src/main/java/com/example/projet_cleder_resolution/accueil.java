@@ -22,6 +22,9 @@ public class accueil extends AppCompatActivity {
 
         ImageView graph = findViewById(R.id.graph);
         graph.setOnClickListener(this::goToGraph);
+
+        ImageView ajout = findViewById(R.id.ajout);
+        ajout.setOnClickListener(this::goToAjout);
     }
 
     public void goToSettings(View view){
@@ -39,6 +42,11 @@ public class accueil extends AppCompatActivity {
         Intent intent = new Intent(this, GraphActivity.class);
         startActivity(intent);
 
+    }
+
+    public void goToAjout(View view){
+        Intent intent = new Intent(this, AjoutResolution.class );
+        startActivity(intent);
     }
 
 
