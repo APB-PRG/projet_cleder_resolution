@@ -11,35 +11,52 @@
         android:id="@+id/nouvelle_variable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:gravity="center_horizontal"
+        android:hint="Entrez une nouvelle variable"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/marron"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265"
-        tools:layout_editor_absoluteX="0dp"
-        android:textSize="24sp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        android:textColor="@color/black"
-        ></EditText>
+        app:layout_constraintVertical_bias="0.364"
+        tools:layout_editor_absoluteX="0dp"></EditText>
 
     <EditText
         android:id="@+id/unite"
         android:layout_width="388dp"
         android:layout_height="61dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="56dp"
         android:gravity="center_horizontal"
+        android:hint="Entrez une unité"
         android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintTop_toBottomOf="@+id/nouvelle_variable"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"></EditText>
+        android:textColorHint="@color/marron"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nouvelle_variable"></EditText>
+
+    <Button
+        android:layout_width="412dp"
+        android:layout_height="99dp"
+        android:background="@color/blueSky"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Ajouter une valeur"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></Button>
 
     <Button
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
-        android:gravity="center_horizontal"
+        android:gravity="center"
         android:text="sauvegarder"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,6 +64,8 @@
         app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/unite"
+        android:textColor="@color/black"
+        android:background="@color/Pomme"
         app:layout_constraintVertical_bias="0.367" />
 
     <Button
@@ -54,9 +73,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
-        android:gravity="center_horizontal"
+        android:gravity="center"
         android:text="retour"
+        android:background="@color/Pomme"
         android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.829"
