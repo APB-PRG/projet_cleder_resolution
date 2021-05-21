@@ -11,26 +11,26 @@
 
     <ImageView
         android:id="@+id/hill"
-        android:layout_width="390dp"
-        android:layout_height="667dp"
+        android:layout_width="392dp"
+        android:layout_height="551dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="-5dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="314dp"
         android:layout_marginBottom="-58dp"
         app:srcCompat="@drawable/ic_subtract" />
 
     <ImageView
         android:id="@+id/ic_arbre_br1"
-        android:layout_width="wrap_content"
+        android:layout_width="189dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="360dp"
-        android:layout_marginEnd="219dp"
-        android:layout_marginBottom="62dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="66dp"
         android:shadowColor="@color/black"
         app:srcCompat="@drawable/ic_arbre_br1"></ImageView>
 
@@ -63,12 +63,13 @@
 
 
     <ImageView
+        android:id="@+id/graph"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="701dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="679dp"
         android:shadowColor="@color/black"
         app:srcCompat="@drawable/ic_graphique_redirection"></ImageView>
 
@@ -80,8 +81,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="3dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="333dp"
-        android:layout_marginBottom="702dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginBottom="681dp"
         app:srcCompat="@drawable/ic_settingsbutton" />
 
     <ImageView

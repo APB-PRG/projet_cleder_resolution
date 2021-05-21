@@ -19,6 +19,9 @@ public class accueil extends AppCompatActivity {
 
         ImageView iv_arbre1 = findViewById(R.id.ic_arbre_br1);
         iv_arbre1.setOnClickListener(this::goToBR_1);
+
+        ImageView graph = findViewById(R.id.graph);
+        graph.setOnClickListener(this::goToGraph);
     }
 
     public void goToSettings(View view){
@@ -28,6 +31,15 @@ public class accueil extends AppCompatActivity {
 
     public void goToBR_1(View view){
         Intent intent = new Intent(this, Resolution1.class);
+
         startActivity(intent);
     }
+
+    public void goToGraph(View view){
+        Intent intent = new Intent(this, GraphActivity.class);
+        startActivity(intent);
+
+    }
+
+
 }
