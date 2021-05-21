@@ -11,12 +11,13 @@
         android:id="@+id/nouvelle_variable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
         tools:layout_editor_absoluteX="0dp"
         android:textSize="24sp"
+        android:hint="Entrez une nouvelle variable"
+        android:textColorHint="@color/marron"
         android:textAlignment="center"
         android:gravity="center_horizontal"
         android:textColor="@color/black"
@@ -26,13 +27,17 @@
         android:id="@+id/unite"
         android:layout_width="388dp"
         android:layout_height="61dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="72dp"
         android:gravity="center_horizontal"
+        android:hint="Entrez une unité"
+        android:textColorHint="@color/marron"
+        android:textColorHighlight="@color/marron"
         android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintTop_toBottomOf="@+id/nouvelle_variable"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"></EditText>
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nouvelle_variable"></EditText>
 
     <Button
         android:id="@+id/save"
