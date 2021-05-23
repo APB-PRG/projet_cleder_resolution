@@ -10,14 +10,16 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-
         android:theme="@style/Theme.Projet_cleder_resolution">
 
+
+
+        <activity
+            android:name=".EntrerBR"
+            android:label="@string/title_activity_entrer_b_r"></activity>
         <activity
             android:name=".AjoutResolution"
-
-            android:parentActivityName=".accueil"
-            />
+            android:parentActivityName=".accueil" />
         <activity
             android:name=".GraphActivity"
             android:parentActivityName=".accueil" />

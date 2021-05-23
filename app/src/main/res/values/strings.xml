@@ -7,4 +7,5 @@
     -->
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_ajout_resolution">AjoutResolution</string>
+    <string name="title_activity_entrer_b_r">EntrerBR</string>
 </resources>
