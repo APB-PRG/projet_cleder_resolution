@@ -43,6 +43,7 @@
         app:srcCompat="@drawable/ic_graphique_cigarette" />
 
     <ImageView
+        android:id="@+id/remplirFiche"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

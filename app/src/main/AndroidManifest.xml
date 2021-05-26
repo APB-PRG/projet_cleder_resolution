@@ -22,6 +22,9 @@
             android:name=".EntrerBR"
             android:label="@string/title_activity_entrer_b_r" />
         <activity
+            android:name=".remplir_fiche"
+            android:label="remplirFiche" />
+        <activity
             android:name=".AjoutResolution"
             android:parentActivityName=".accueil" />
         <activity
