@@ -13,10 +13,14 @@
         android:theme="@style/Theme.Projet_cleder_resolution">
 
 
+        <activity
+            android:name=".FinQuestion"
+            android:label="@string/title_activity_fin_question">
 
+        </activity>
         <activity
             android:name=".EntrerBR"
-            android:label="@string/title_activity_entrer_b_r"></activity>
+            android:label="@string/title_activity_entrer_b_r" />
         <activity
             android:name=".AjoutResolution"
             android:parentActivityName=".accueil" />

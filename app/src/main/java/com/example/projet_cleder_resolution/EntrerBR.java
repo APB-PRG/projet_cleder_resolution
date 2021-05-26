@@ -1,5 +1,6 @@
 package com.example.projet_cleder_resolution;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,6 +23,8 @@ public class EntrerBR extends AppCompatActivity {
 
     ArrayList<Info> infosGain = new ArrayList<>();
     public BRAdaptater gainAdaptater = new BRAdaptater(infosGain);
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +52,15 @@ public class EntrerBR extends AppCompatActivity {
         ImageView ivGain = findViewById(R.id.AjoutGain);
         ivGain.setOnClickListener(this::popUpAjoutGain);
 
+        ImageView valider = findViewById(R.id.Valider);
+        valider.setOnClickListener(this::sauvegarder);
+    }
+
+    public void sauvegarder(View view){
+        if(!infosBR.isEmpty() && !infosGain.isEmpty()) {
+            Intent intent = new Intent(this, FinQuestion.class);
+            startActivity(intent);
+        }
     }
 
     public void popUpAjoutVariable(View view){
@@ -68,8 +80,10 @@ public class EntrerBR extends AppCompatActivity {
             public void onClick(View view) {
                 String variable = ((EditText)dialog.findViewById(R.id.nouvelle_variable)).getText().toString();
                 String unite = ((EditText)dialog.findViewById(R.id.unite)).getText().toString();
-                infosBR.add(new Info(variable, unite));
-                brAdaptater.notifyItemInserted(infosBR.size());
+                if(!variable.isEmpty()&&!unite.isEmpty()) {
+                    infosBR.add(new Info(variable, unite));
+                    brAdaptater.notifyItemInserted(infosBR.size());
+                }
                 dialog.dismiss();
             }
         });
