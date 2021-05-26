@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15"
         app:layout_constraintVertical_bias="0.329" />
 
-    <EditText
+    <NumberPicker
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="35"
