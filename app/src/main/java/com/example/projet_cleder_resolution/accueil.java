@@ -34,14 +34,12 @@ public class accueil extends AppCompatActivity {
 
     public void goToBR_1(View view){
         Intent intent = new Intent(this, Resolution1.class);
-
         startActivity(intent);
     }
 
     public void goToGraph(View view){
         Intent intent = new Intent(this, GraphActivity.class);
         startActivity(intent);
-
     }
 
     public void goToAjout(View view){

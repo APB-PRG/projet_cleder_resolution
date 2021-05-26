@@ -12,25 +12,26 @@
         android:id="@+id/viewAjoutArretFumer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="620dp"
-        app:srcCompat="@drawable/ic_rectangle_rose2"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="194dp"
 
 
-        />
-
-
+        android:layout_marginBottom="594dp"
+        app:srcCompat="@drawable/ic_rectangle_rose2" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="620dp"
+        android:layout_marginBottom="591dp"
         app:srcCompat="@drawable/ic_rectanglebleu2" />
 
     <ImageView
@@ -39,8 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="460dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="420dp"
         app:srcCompat="@drawable/ic_rectanglebleu" />
 
     <ImageView
@@ -50,7 +51,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="460dp"
+        android:layout_marginBottom="422dp"
         app:srcCompat="@drawable/rose_rectangle" />
 
     <ImageView
@@ -59,8 +60,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="236dp"
         app:srcCompat="@drawable/ic_rectangle_rose2" />
 
     <ImageView
@@ -70,7 +71,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="238dp"
         app:srcCompat="@drawable/ic_rectanglebleu2" />
 
     <ImageView
@@ -79,8 +80,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="49dp"
         app:srcCompat="@drawable/ic_rectanglebleu" />
 
     <ImageView
@@ -89,23 +90,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="51dp"
         app:srcCompat="@drawable/rose_rectangle" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="126dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="220dp"
-        android:layout_marginBottom="690dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="647dp"
         android:rotation="-4"
+
         android:text="Arrêter de fumer"
         android:textScaleX="1.5"
-
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView6"
@@ -114,12 +117,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="220dp"
-        android:layout_marginBottom="520dp"
+        android:layout_marginBottom="472dp"
         android:rotation="-4"
         android:text="Être plus concentré"
         android:textScaleX="1.5"
 
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView8"
@@ -127,13 +130,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="220dp"
-        android:layout_marginBottom="340dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="283dp"
         android:rotation="-4"
         android:text="Apprendre une nouvelle langue"
         android:textScaleX="1.5"
 
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView11"
@@ -141,26 +144,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="220dp"
-        android:layout_marginBottom="160dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="102dp"
         android:rotation="-4"
         android:text="Lire plus régulièrement"
         android:textScaleX="1.5"
 
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="126dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="690dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="649dp"
         android:rotation="4"
+
         android:text="Faire du sport"
         android:textScaleX="1.5"
-
         android:textStyle="bold" />
 
     <TextView
@@ -169,13 +174,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="520dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="475dp"
         android:rotation="4"
         android:text="Faire un régime"
         android:textScaleX="1.5"
 
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView7"
@@ -183,13 +188,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="340dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="292dp"
         android:rotation="4"
         android:text="Faire un régime"
         android:textScaleX="1.5"
 
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView10"
@@ -197,12 +202,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="160dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="115dp"
         android:rotation="4"
         android:text="Personalisé"
         android:textScaleX="1.5"
 
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 </RelativeLayout>
